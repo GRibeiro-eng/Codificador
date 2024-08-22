@@ -1,0 +1,1 @@
+Olá! Este projeto tem como objetivo codificar mensagens e descodificá-las também.
