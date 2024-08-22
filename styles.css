@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-primaria: #F3F2E9;
+    --cor-secundaria: #3B3935;
+    --cor-terciaria: #982533;
+    --cor-quartenaria: #CECCBA;
+
+    --font-primaria: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0 2%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    padding: 0 0 0 10%;
+}
+
+#entradaTexto{
+    width: 680px;
+    background-color: transparent;
+    color: var(--cor-secundaria);
+    border: none;
+    outline: 0px;
+    padding: 12% 0% 0% 0%;
+    font-family: var(--font-primaria);
+    font-size: 32px;
+    /* text-transform: uppercase; */
+    /* margin-bottom: 447px; */
+    margin-bottom: 46%;
+}
+
+.aviso {
+    font-family: var(--font-primaria);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--cor-secundaria);
+}
+
+.btn_criptografar{
+    width: 328px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--font-primaria);
+    margin-right: 2%;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    cursor: pointer;
+}
+
+.btn_descriptografar{
+    width: 328px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    border-color: var(--cor-terciaria);
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--font-primaria);
+    background-color: transparent;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#saidaTexto {
+    display: block;
+    font-family: var(--font-primaria);
+    background-color: var(--cor-quartenaria);
+    max-height: 100vh;
+    max-width: 80vh;
+    height: auto;
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 1%;
+    padding: 32px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.saidaTexto img {
+    font-size: 25px;
+    color: var(--cor-secundaria);
+}
+
+.saidaTexto__primeiro{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--cor-secundaria);
+    margin: 16px;
+}
+
+.saidaTexto__segundo{
+    text-align: center;
+    font-size: 16px;
+    color: #3B3935;
+    margin-bottom: 60px;
+}
+
+.btn_copiar {
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    border-color: var(--cor-terciaria);
+    font-size: 24px;
+    font-family: var(--font-primaria);
+    background-color: transparent;
+    color: var(--cor-terciaria);
+    cursor: pointer ;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2%;
+}
+
+.links {
+    color: var(--cor-terciaria);
+    margin: 5px;
+}
+
+.github {
+    color: var(--cor-terciaria);
+}
+
+.linkedin {
+    color: var(--cor-terciaria);
+}
+
+.rodape strong {
+    color: var(--cor-terciaria);
+}

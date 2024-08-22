@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="logo.png" alt="Alura Logo Cabeçalho">
+    </header>
+
+    <main class="main-container">
+        <div class="container">
+            <!-- <textarea id="entradaTexto" placeholder="Digite seu texto..."></textarea><br> -->
+        <div class="button">
+
+            <textarea id="entradaTexto" placeholder="Digite seu texto..."></textarea><br>
+
+            <div class="aviso">
+                <i class="fa-sharp fa-solid fa-circle-exclamation"></i> 
+                <p>Apenas letras maiúsculas e sem acento</p>
+            </div>
+
+            <button class="btn_criptografar" onclick="criptografar()">Criptografar</button>
+            <button class="btn_descriptografar" onclick="descriptografar()">Descriptografar</button>
+        </div>
+
+        <div id="saidaTexto">
+            <img id="imagem" src="High quality products 1 1.svg" alt="Pessoa procurando algo">
+            <p class="saidaTexto__primeiro">Nenhuma mensagem encontrada <br></p>
+            <p class="saidaTexto__segundo">Digite um texto que você deseja criptografar ou descriptografar</p>
+        </div>
+    </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por <strong>Giorge</strong></p>
+        <div class="links">
+            <a class="github" href="https://github.com/GRibeiro-eng">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a class="linkedin" href="https://linkedin.com/in/giorge-ribeiro-0224129">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
